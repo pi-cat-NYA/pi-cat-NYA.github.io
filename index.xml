@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/algolia.json</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>en</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 04 Sep 2025 02:58:43 +0800</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇博客</title><link>https://example.org/post/first-post/</link><pubDate>Thu, 04 Sep 2025 02:58:43 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://example.org/post/first-post/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://pi-cat-nya.github.io/algolia.json</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>en</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 04 Sep 2025 23:38:51 +0800</lastBuildDate><atom:link href="https://pi-cat-nya.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://pi-cat-nya.github.io/post/02/</link><pubDate>Thu, 04 Sep 2025 23:38:51 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://pi-cat-nya.github.io/post/02/</guid><description>
+<![CDATA[<h1></h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <p>这是在博客成功部署到github仓库后写下的博客，旨在测试新文章从本地仓库远程更新到github上过程可以顺利进行，如果顺利，将在下一篇博客中汇报将提交文章操作实现自动化的方案进度报告。</p>
+        
+        <hr><p>Published on 2025-09-04 at <a href='https://pi-cat-nya.github.io/'>My New Hugo Site</a>, last modified on 2025-09-04</p>]]></description></item><item><title>我的第一篇博客</title><link>https://pi-cat-nya.github.io/post/first-post/</link><pubDate>Thu, 04 Sep 2025 02:58:43 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://pi-cat-nya.github.io/post/first-post/</guid><description>
 <![CDATA[<h1>我的第一篇博客</h1><p>Author: D-Sketon(xxx@example.com)</p>
         
           <h1 id="第一篇博客">
@@ -11,4 +16,4 @@ first try in existing touhou theme
 <p><em>斜体</em></p>
 <p>测试/test</p>
         
-        <hr><p>Published on 2025-09-04 at <a href='https://example.org/'>My New Hugo Site</a>, last modified on 2025-09-04</p>]]></description><category>Blog</category></item></channel></rss>
+        <hr><p>Published on 2025-09-04 at <a href='https://pi-cat-nya.github.io/'>My New Hugo Site</a>, last modified on 2025-09-04</p>]]></description><category>Blog</category></item></channel></rss>
