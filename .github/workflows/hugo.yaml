@@ -2,8 +2,8 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: [main]  # 当你向 main 分支推送时触发部署
-  workflow_dispatch:   # 允许在 Actions 标签页手动触发
+    branches: [ "main" ]  # 设置在 main 分支 push 时触发
+  workflow_dispatch:       # 允许手动触发
 
 jobs:
   build:
@@ -18,17 +18,14 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest' # 使用最新版 Hugo
-          extended: true         # 使用扩展版（很多主题需要）
+          hugo-version: 'latest'
+          extended: true
 
       - name: Build
-        run: hugo --minify       # 构建网站，并压缩输出文件
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ 
-	  # Hugo 默认的输出目录
-          # 如果你要部署到 main 分支本身，请将上一行改为：
-          # publish_dir: ./
+          publish_dir: ./public # 将 Hugo 生成的 public 目录内容部署到 gh-pages 分支
